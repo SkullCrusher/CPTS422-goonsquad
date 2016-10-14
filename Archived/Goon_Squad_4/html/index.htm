@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="resources/css/default.css">
+		<link rel="stylesheet" type="text/css" href="resources/thirdparty/font-awesome.css">
+		<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.js"></script>
+		<script type="text/javascript" src="resources/js/index.js"></script>
+	</head>
+	<body>
+
+	<jsp:include page="navbar.jsp"/>
+	
+	<div class="content">
+		<div class="reciept-button-container">
+			<button class="button-upload-reciept">
+				Upload Reciept
+			</button>
+		</div>
+	
+		<table id="receipt-datatable" class="receipt-table display" style="width:100%">
+			<thead>
+				<tr>
+					<th>ID</th>				
+					<th>Upload Date</th>
+					<th>Store</th>
+					<th>Total Cost</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+		</table> 
+	</div>	
+	</body>	
+</html>

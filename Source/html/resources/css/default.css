@@ -1,0 +1,557 @@
+*{
+	
+	font-family: 'Titillium Web', sans-serif;	
+}
+
+body{
+	
+	background-color: #F6F7F8;
+	padding: 0;
+	margin: 0;
+	position: relative;
+    width: 100%;
+	min-width: 960px;
+}
+
+/* edit */
+#UpdateReciept{
+	float:right;
+	background-color: #2169DF; 
+	margin-top: -35px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#AddItemButton{
+	float:right;
+	background-color: #2169DF; 
+	margin-top: -35px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-right: 5px;
+}
+
+/* view */
+
+#ReceiptForm{
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+#ReceiptDate, #store, #totalCost, #comments{
+	margin-top: 15px;
+}
+
+#itemsTable_filter{
+	padding-right: 25px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#itemsTable_previous{
+	margin-right: 5px;
+	background-color: #2169DF !important; 
+	border-radius: 0px !important;
+    border: none !important;
+    color: white !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+}
+
+#itemsTable_next{
+	margin-right: 20px;
+	background-color: #2169DF !important; 
+	border-radius: 0px !important;
+    border: none !important;
+    color: white !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+}
+
+#itemsTable_info{
+	padding-left: 25px;
+	font-weight: bold;
+	margin-top: -3px;
+}
+
+#itemsTable_length{
+	padding-top: 9px;
+	padding-left: 20px;
+	font-weight: bold;
+	
+}
+
+#DownloadButton{
+	float:right;
+	background-color: #2169DF; 
+	margin-top: -35px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#EditButton{
+	float:right;
+	background-color: #2169DF; 
+	margin-top: -35px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-right: 5px;
+}
+
+/* login stuff */
+
+#logout{
+	color: #fff;
+	font-weight: bold;
+}
+
+/* index */
+
+#UploadButton{
+	float:right;
+	background-color: #2169DF; 
+	margin-top: -35px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#top-little-fake-bar-thing{
+	width: 960px;
+	margin-left: calc(50% - 480px);
+	height: 155px;
+	background-color: #fff;
+	
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #E6E7E9;
+}
+
+.fake-bar-header{
+	padding-top: 25px;
+	font-size: 36px;
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+.fake-bar-subtext{
+	padding-top:5px;
+	font-style: italic;
+	color: #999999;
+	margin-left: 25px;
+}
+
+/* index datatable overrides.*/
+
+#receipt-datatable_filter{
+	padding-right: 25px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#receipt-datatable{
+	padding-bottom: 20px;
+}
+
+.paginate_button{
+	padding: 0px 0px 0px 0px ;
+	
+	margin-right: 5px;
+	background-color: #2169DF !important; 
+	border-radius: 0px !important;
+    border: none !important;
+    color: white !important;
+    color: #fff !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+	
+}
+
+#receipt-datatable_previous{
+	margin-right: 5px;
+	background-color: #2169DF !important; 
+	border-radius: 0px !important;
+    border: none !important;
+    color: white !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+}
+
+#receipt-datatable_next{
+	margin-right: 20px;
+	background-color: #2169DF !important; 
+	border-radius: 0px !important;
+    border: none !important;
+    color: white !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+}
+
+#receipt-datatable_info{
+	padding-left: 25px;
+	font-weight: bold;
+	margin-top: -3px;
+}
+
+#receipt-datatable_length{
+	padding-top: 9px;
+	padding-left: 20px;
+	font-weight: bold;
+	
+}
+
+/*
+.paginate_button current{
+	background-color: #000 !important;
+}
+
+.current{
+	background-color: #000 !important;
+}*/
+
+/* View Receipt*/
+
+.view-receipt-container{
+	position: relative;
+	width: 960px;
+	margin-top: 25px;
+    margin-left: calc(50% - 480px);	
+	background-color: #FFFFFF;
+}
+
+.view-receipt-edit-button{
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.view-receipt-save-button{
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Register dialog. */
+
+.register-dialog-container{
+	width: 350px;
+	margin-left: calc(50% - 175px);
+	background-color: #fff;
+	height: 325px;
+}
+
+.register-form{
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.register-submit{
+	margin-top: 20px;
+}
+
+.register-form input{
+	width: 100%;
+}
+
+.register-dialog h2{
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#register-login-to-account{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#register-login-to-account a{
+	text-decoration: none;	
+}
+
+#register-header{
+	margin-left: 100px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#register-submit{
+	background-color: #2169DF; 
+	margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/* Login dialog. */
+
+.login-dialog-container{
+	width: 350px;
+	margin-left: calc(50% - 175px);
+	background-color: #fff;
+	height: 265px;
+}
+
+#login-header{
+	margin-left: calc(175px - 45px);
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#login-register-for-account{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#login-register-for-account a{
+	text-decoration: none;	
+}
+
+.login-form{
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.login-submit{
+	background-color: #000;
+}
+
+#login-submit{
+	background-color: #2169DF;
+	margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.login-form input{
+	width: 100%;
+}
+
+.login-dialog h2{
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+/* Nav bar. */
+
+.nav-bar{
+	background-color: #000E28;	
+	position: relative;
+	
+    width:100%;
+	height: 75px;
+	display: inline-block;
+}
+
+#sickasslion{
+	margin-top: 10px;
+	float:left;
+	padding-right: 10px;
+}
+
+.nav-bar-960-container{
+	width:960px;
+	margin-left: calc(50% - 480px);
+	
+}
+
+.nav-bar-group-name{
+	color: #fff;
+	font-size: 30px;
+	padding-left: 10px;
+	font-family: 'Dosis', sans-serif;
+}
+
+#nav-group-name-text{
+	padding-top: 15px;	
+	
+}
+
+#nav-group-name-text a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-bar-account-container{
+	float:right;
+	font-size: 16px;
+	margin-top: -35px;
+	padding-right: 25px;
+	color: #fff;
+	
+}
+
+.nav-bar-account-container a{
+	text-decoration: none;
+}
+
+/* Nav bar bread */
+
+.bread{
+	background-color: #fff;	
+	position: relative;
+
+    width:100%;
+	height: 90px;
+	display: inline-block;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #E6E7E9;
+	
+}
+
+.bread-root{
+	text-decoration: none;
+	color: #2169DF;
+}
+
+.bread-child{
+	text-decoration: none;
+	color: #999999;
+	padding-left: 5px;
+}
+
+.nav-bar-960-bread-container{
+	width:960px;
+	margin-left: calc(50% - 480px);
+}
+
+.bread-crumbs{
+	padding-top: 30px;
+	margin-left: 15px;
+}
+
+/* Content */
+
+.content{	
+	position: relative;
+	width: 960px;
+	margin-top: 0px;
+    margin-left: calc(50% - 480px);	
+	background-color: #FFFFFF;
+	padding-bottom: 5px;
+}
+
+.reciept-button-container{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.button-upload-reciept{
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+
+
+.receipt-table{
+	padding-right: 0px;
+	padding-left: 0px;	
+	padding-bottom: 10px;
+	text-align: center;
+}
+/*
+
+.receipt-table tr:nth-child(even){
+	background: #CCC;
+}
+.receipt-table tr:nth-child(odd){
+	background: #FFF;
+}
+*/
+
+.ui-dialog{
+	background: #ffffff;
+	border-width: 5px;
+	border-color: #ccffff;
+	border-style: ridge;
+}
+
+div.ui-dialog-titlebar button.ui-corner-all{
+	text-indent: -9999px;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://mcm.e2x.com.my/images/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+div.loading {
+    overflow: hidden;   
+}
+
+div.loading .modal {
+    display: block;
+}
+
+.error {
+	color: #ff3300;
+}
