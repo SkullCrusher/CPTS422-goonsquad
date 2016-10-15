@@ -13,8 +13,8 @@ RMS is a small website that allows users to upload receipts, manage, and search.
 
 # Screen shots
 
-![Picture1](/Art/mockup1.PNG "Screen shot")
-![Picture2](/Art/mockup2.PNG "Screen shot")
+![Picture1](/Art/mockup2.PNG "Screen shot")
+![Picture2](/Art/mockup1.PNG "Screen shot")
 
 # Copy of the assignment
 
