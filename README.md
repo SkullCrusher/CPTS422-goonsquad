@@ -1,9 +1,19 @@
-# CPTS422-goonsquad
+# CPTS422-goonsquad - Receipt management system
+RMS is a small website that allows users to upload receipts, manage, and search.
 
+# Installation.
+1. Install Eclipse for JavaEE developers, and create a new project.
+2. Install Tomee and set it up Eclipse in eclipse.
+3. Add the Java to the Java folder and the jsp in the web folder.
+4. Add the libraries to the build path.
+5. Install MYSQL.
+6. Use the install script to set up the database.
+7. Create a MYSQL user, give it access to the database, and switch out the one in the MYSQL hacks.
+8. Run.
 
 # Assignment writeup
 
-### RMS: an online receipt management system
+#### RMS: an online receipt management system
 
 ###### General Requirements:
 The purpose of this assignment is to get you familiar with Java EE and other web technologies including HTML, CSS, and Javascript.
