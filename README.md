@@ -11,7 +11,12 @@ RMS is a small website that allows users to upload receipts, manage, and search.
 7. Create a MYSQL user, give it access to the database, and switch out the one in the MYSQL hacks.
 8. Run.
 
-# Assignment writeup
+# Screen shots
+
+![Picture1](/Art/mockup1.PNG "Screen shot")
+![Picture2](/Art/mockup2.PNG "Screen shot")
+
+# Copy of the assignment
 
 #### RMS: an online receipt management system
 
