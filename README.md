@@ -1,6 +1,10 @@
 # CPTS422-goonsquad - Receipt management system
 RMS is a small website that allows users to upload receipts, manage, and search.
 
+# Authors
+1. Jordan Hendry
+2. David Harkins
+
 # Installation.
 1. Install Eclipse for JavaEE developers, and create a new project.
 2. Install Tomee and set it up Eclipse in eclipse.
